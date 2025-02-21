@@ -2,17 +2,19 @@ import React, {useState, useRef} from "react";
 import {edata, randomEmojies} from './emojiData';
 import Emoji from "./Emoji";
 
-export default function Gameboard({ count, setCount }) {
+export default function Gameboard({ count, setCount, matches , setMatches}) {
     const [emojiData, setEmojiData] = useState([...randomEmojies]);
-    const [previousCardState, setPreviousCardState] = useState(-1)
-    const previousIndex = useRef(-1)
-    //console.log("randomEmojies", randomEmojies, "emojiData", emojiData);
+    const [previousCardState, setPreviousCardState] = useState(-1);
+    const previousIndex = useRef(-1);
+    
+    console.log("emojiData", emojiData);
 
     const matchCheck = (currentCard) => {
         if (emojiData[currentCard].id === emojiData[previousCardState].id) {
             emojiData[previousCardState].status = 'active matched'
             emojiData[currentCard].status = 'active matched'
             setPreviousCardState(-1)
+            setMatches(prev => prev + 1);
         } 
         else {
             emojiData[currentCard].status = 'active'

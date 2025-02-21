@@ -41,6 +41,11 @@ export const edata = [
     {id: 39, code: '0x1f9ca', status: '', description: 'Ice'},
     {id: 40, code: '0x1f30e', status: '', description: 'Earth'},
     {id: 41, code: '0x1f9ed', status: '', description: 'Compass'},
+    {id: 42, code: '0x1f5fd', status: '', description: 'Statue of Liberty'},
+    {id: 43, code: '0x1f682', status: '', description: 'Locomotive'},
+    {id: 44, code: '0x1f6f9', status: '', description: 'Skateboard'},
+    {id: 45, code: '0x1f6f4', status: '', description: 'Scooter'},
+    {id: 46, code: '0x1f6a7', status: '', description: 'Construction'}
 
 ];
 
@@ -67,6 +72,6 @@ randomSet.forEach((e) => {
 
 // randomize the array
 randomEmojies.sort(() => Math.random() - .5);
-randomEmojies.sort(() => Math.random() - .5);
+//randomEmojies.sort(() => Math.random() - .5);
 
 console.log("randomSet", randomSet, randomEmojies);
