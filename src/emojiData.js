@@ -45,7 +45,8 @@ export const edata = [
     {id: 43, code: '0x1f682', status: '', description: 'Locomotive'},
     {id: 44, code: '0x1f6f9', status: '', description: 'Skateboard'},
     {id: 45, code: '0x1f6f4', status: '', description: 'Scooter'},
-    {id: 46, code: '0x1f6a7', status: '', description: 'Construction'}
+    {id: 46, code: '0x1f6a7', status: '', description: 'Construction'},
+    {id: 47, code: '0x1f6a6', status: '', description: 'Traffic Light'}
 
 ];
 
