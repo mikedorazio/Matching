@@ -28,7 +28,7 @@ function App() {
     <>
         {recordGameOver && <ReactConfetti />}
         <div className="app-container">
-            <Header count={count} />
+            <Header count={count} recordScore={recordScore} />
             <Gameboard count={count} setCount={setCount} matches={setMatches} setMatches={setMatches} />
         </div>
     </>

@@ -15,13 +15,16 @@ body {
 .header-container {
     height: 75px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     display: flex;
     align-items: end;
 }
+
+.record-score,
 .attempts {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-size: 24px;
+    padding: 0 10px;
 }
 
 .gameboard-container {
@@ -32,7 +35,6 @@ body {
     justify-content: center;
     width: 810px;
     margin: 0 auto;
-    padding-top: 20px;
 }
 
 div.emoji {
@@ -56,9 +58,9 @@ span {
     cursor: pointer;
 }
 
-.emoji.active {
-    transform: rotateY(0);
-}
+.emoji:hover {
+    background: linear-gradient(45deg, rgb(120, 95, 63), rgb(209, 167, 113))
+} 
 
 .emoji.active span {
     opacity: 1;
@@ -67,6 +69,9 @@ span {
 .unmatch {
     border-radius: 5px;
     animation: 2.5s hideEmoji linear;
+}
+div.matched > span {
+    cursor: default;
 }
 
 @keyframes hideEmoji {
