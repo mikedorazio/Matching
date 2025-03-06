@@ -33,7 +33,7 @@ export const edata = [
     {id: 31, code: '0x1f968', status: '', description: 'Prezel'},
     {id: 32, code: '0x1f969', status: '', description: 'Steak'},
     {id: 33, code: '0x1f355', status: '', description: 'Pizza'},
-    {id: 34, code: '0x2b1c', status: '', description: 'White Square'},
+    {id: 34, code: '0x2b1c',  status: '', description: 'White Square'},
     {id: 35, code: '0x1f3cc', status: '', description: 'Golfer'},
     {id: 36, code: '0x1f9a0', status: '', description: 'Microbe'},
     {id: 37, code: '0x1f373', status: '', description: 'Egg on pan'},
@@ -46,8 +46,10 @@ export const edata = [
     {id: 44, code: '0x1f6f9', status: '', description: 'Skateboard'},
     {id: 45, code: '0x1f6f4', status: '', description: 'Scooter'},
     {id: 46, code: '0x1f6a7', status: '', description: 'Construction'},
-    {id: 47, code: '0x1f6a6', status: '', description: 'Traffic Light'}
-
+    {id: 47, code: '0x1f6a6', status: '', description: 'Traffic Light'},
+    {id: 48, code: '0x1f46e', status: '', description: 'Police Officer'},
+    {id: 49, code: '0x1f680', status: '', description: 'Rocket'},
+    {id: 50, code: '0x1f384', status: '', description:  'Christmas Tree'}
 ];
 
 const NUMBER_OF_GAME_ENTRIES = 12;

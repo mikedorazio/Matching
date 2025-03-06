@@ -45,7 +45,7 @@ div.emoji {
     opacity: 1;
     /* background: url('https:unsplash.it/200/200'); */
     background: linear-gradient(45deg, rgb(157, 133, 101), rgb(227, 205, 177));
-    animation: hideEmoji 2.5 ease;
+    animation: hideEmoji 2.0 ease;
     border-radius: 5px;
 }
 
@@ -66,10 +66,10 @@ span {
     opacity: 1;
 }
 
-.unmatch {
+/* .unmatch {
     border-radius: 5px;
-    animation: 2.5s hideEmoji linear;
-}
+    animation: 9.0s hideEmoji linear;
+} */
 div.matched > span {
     cursor: default;
 }

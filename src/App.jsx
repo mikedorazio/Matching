@@ -7,6 +7,7 @@ import ReactConfetti from 'react-confetti';
 function App() {
   const [count, setCount] = useState(0);
   const [matches, setMatches] = useState(0);
+  // get the recordScore from local storage
   const [recordScore, setRecordScore] = useState(() => {
         const storedRecord = localStorage.getItem('recordLow');
         return storedRecord ? parseInt(storedRecord) : 50;
